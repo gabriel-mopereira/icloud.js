@@ -1,7 +1,7 @@
 {
-  "name": "icloudjs",
-  "version": "1.6.2",
-  "description": "Library for accessing iCloud in Node.js",
+  "name": "hasteo-icloudjs",
+  "version": "1.0.0",
+  "description": "iCloud.js library adapted for Hasteo",
   "main": "build/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,8 +10,6 @@
     "docs": "typedoc src/index.ts src/services/* --customCss docs.css --darkHighlightTheme one-dark-pro --lightHighlightTheme one-dark-pro",
     "prepare": "npm run build"
   },
-  "author": "foxt",
-  "license": "MIT",
   "dependencies": {
     "@foxt/js-srp": "^0.0.3-patch2",
     "dayjs": "^1.11.6",
